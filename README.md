@@ -6,8 +6,8 @@
    ![](ChinookDatabaseSchema.png)
 1. Create a database named `507_Section_11`
 1. Run this command
-    - Mac Users: `psql 507_Section_11 -f Chinook_PostgreSql.sql`
-    - Windows Users: `psql 507_Section_11 -U postgresql -f Chinook_PostgreSql.sql`
+    - Mac Users: `psql 507_Section_11 -f Chinook_PostgreSql_utf8.sql`
+    - Windows Users: `psql 507_Section_11 -U postgresql -f Chinook_PostgreSql_utf8.sql`
 1. Edit a step in `chinook_database.py`, run the file, and repeat
     - Some questions to consider:
         - What table(s) do you need to get data from?
